@@ -1,25 +1,36 @@
 import json
 
-def getDictContent(content,unique_column):
-    for k,v in content.items():
-        if k == unique_column:
-            yield str(v)
-        if type(v) == type(dict()):
-            yield getDictContent(v,unique_column)
-def updateUniqueColumn(content,unique_column):
-    for foundItems in getDictContent(content,unique_column):
-        print(foundItems)
+
+def getDictContent(content1, unique_column1):
+    fnd =list()
+    for k, v in content1.items():
+        if type(v) == dict:
+            fnd.extend(getDictContent(v,unique_column1))
+        else:
+            #print(k,'---',v)
+            if k==unique_column1:
+                fnd.append(v)
+    return fnd
+
+
+def updateUniqueColumn(content, unique_column):
+    if unique_column in content['Unique_Column'].keys():
+        return
+    content['Unique_Column'][unique_column] = getDictContent(content,unique_column)
     return content
+
 
 filename = 'dendo_patterns.json'
 f = open(filename, 'r')
 data = json.load(f)
 imperative_name = 'TradeInsertion'
-print(data)
-unique_column = 'portfolio'
+#print(data)
+unique_column = 'Portfolio'
 data[imperative_name]['Unique_Column'] = unique_column
-with open(filename,'w') as outfile:
-    json.dump(data,outfile)
-f = open(data[imperative_name]['Sub_Type']+'_patterns.json','r')
+with open(filename, 'w') as outfile:
+    outfile.write(json.dumps(data,indent=4))
+f = open(data[imperative_name]['Sub_Type'] + '_patterns.json', 'r')
 content = json.load(f)
-content = updateUniqueColumn(content,unique_column)
+content = updateUniqueColumn(content, unique_column)
+with open(data[imperative_name]['Sub_Type'] + '_patterns.json', 'w') as outfile:
+    outfile.write(json.dumps(content, indent=4))

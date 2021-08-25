@@ -1,1 +1,177 @@
-{"Unique_Column": {"Contract Id": ["./contracts/contract/contractId/internalId", "./trades/trade/tradeHeader/contractReference/contractId/internalId", "./contracts/contract/contractHeader/contractSource/contractOriginReference/contractId/internalId"]}, "Check_attributes": {"Events": "mefClass"}, "Check_instance": {"Events": "All"}, "Grouping_Column": "Typology", "common_tags": {"tradeFamily": ".//tradeFamily", "tradeGroup": ".//tradeGroup", "tradeType": ".//tradeType", "Internal/External": "./trades/trade/tradeHeader/tradeCategory/tradeDestination", "Trade Status": "./trades/trade/tradeStatus/physicalStatus", "Portfolio": "./trades/trade/portfolios/portfolio/portfolioLabel", "User Name": "./documentProperties/producedBy/user/name", "User Group": "./documentProperties/producedBy/user/group", "User Desk": "./documentProperties/producedBy/user/desk", "Clearing Eligibility": "./contracts/contract/regulatoryInformation/clearingEligibility", "Typology": "./contracts/contract/contractHeader/contractCategory/typology", "Source System": "./contracts/contract/contractHeader/contractSource/sourceSystem", "Entity": "./trades/trade/tradeHeader/tradeViews/tradeView/entity", "Trade Insert": "./trades/trade/tradeVersions/tradeVersion/action", "Flow Currency": "./trades/trade/settlementInstructions/settlementInstruction/settlementInstructionKey/flowCurrency", "Last Contract Event Action": "./contracts/contract/contractHeader/contractSource/lastContractEventAction", "Payment Netting": "./trades/trade/tradeHeader/tradeAgreements/paymentNetting", "Party Name": "./documentProperties/producedBy/partyName", "Contract Id": "./contracts/contract/contractId/internalId", "EventLastAction": "./contracts/contract/contractHeader/contractSource/lastContractEventAction", "ClearingEligibility": "./contracts/contract/regulatoryInformation/clearingEligibility", "clearingMandatory": "./contracts/contract/regulatoryInformation/clearingMandatory", "ClearingDecision": "./contracts/contract/regulatoryInformation/clearingDecision", "NettingEligibility": "./contracts/contract/regulatoryInformation/nettingEligibility", "CollateralAgreement_Exclude from pool": "./contracts/contract/contractHeader/collateralAgreement/excludeFromPool", "SourceSystem": "./contracts/contract/contractHeader/contractSource/sourceSystem", "originPublishingSystem": "./contracts/contract/contractHeader/contractSource/originPublishingSystem", "publishingSystem": "./contracts/contract/contractHeader/contractSource/publishingSystem", "SCF plInstrument": "./trades/trade/tradeBody/*/plInstrument", "SCF plInstrumentFamily": "./trades/trade/tradeBody/*/plInstrumentFamily", "Future Label": "./trades/trade/tradeBody/*/futureId/futureLabel", "futureDisplayLabel": "./trades/trade/tradeBody/*/futureId/futureDisplayLabel", "futureMarket": "./trades/trade/tradeBody/*/futureId/futureMarket", "security code": "./trades/trade/tradeBody/*/securityId/securityCode", "security display label": "./trades/trade/tradeBody/*/securityId/securityDisplayLabel", "generator": "./trades/trade/tradeBody/*/templateID/templateLabel", "Counter Party": "trades/trade/parties/party[2]/partyName", "counterParty": "trades/trade/parties/party[2]/partyName", "counterPartyblaba": "./trades/trade/parties/party[2]/partyName", "Events": "./contracts/contract/contractHeader/contractSource/lastContractEventReference"}, "IRS": {"Nominal": "./trades/trade/tradeBody/interestRateSwap/stream/capital/initialCapitalAmount", "Maturity": "./trades/trade/tradeBody/interestRateSwap/stream/maturity", "Template Label": "./trades/trade/tradeBody/interestRateSwap/templateID/templateLabel", "Amortizing Type": "./trades/trade/tradeBody/interestRateSwap/stream/streamTemplate/amortizingType", "PAY/REC": "./trades/trade/tradeBody/interestRateSwap/stream/payReceive", "Leg 1 Payment Currency": "./trades/trade/tradeBody/interestRateSwap/stream/streamTemplate/paymentCurrency", "Leg 2 Payment Currency": "./trades/trade/tradeBody/interestRateSwap/stream/streamTemplate/paymentCurrency"}, "Spot": {"CCY pair": "./trades/trade/tradeBody/fxSpotForward/riskSection", "Rate": "./trades/trade/tradeBody/fxSpotForward/exchangeRate/rate", "Nominal": "./trades/trade/tradeBody/fxSpotForward/currency1Flow/amount", "Currency1": "./trades/trade/tradeBody/fxSpotForward/fxSpot/fxQuotation/currency1", "Currency2": "./trades/trade/tradeBody/fxSpotForward/fxSpot/fxQuotation/currency2"}, "Bond Future": {"Nominal": "./trades/trade/tradeBody/bondFuture/nominalAmount", "Expiry": "./trades/trade/tradeBody/bondFuture/futureId/expiryDate"}, "Xccy Swap": {"Instrument2": "./trades/trade/tradeBody/currencySwap/templateID/templateLabel", "Maturity": "./trades/trade/tradeBody/currencySwap/stream[1]/maturity", "Currency1 Amount": "./trades/trade[@mefClass='mxContractITRADE']/tradeBody/currencySwap/stream[1]/capital/initialCapitalAmount", "Amortizing Type": "./trades/trade/tradeBody/interestRateSwap/stream/streamTemplate/amortizingType", "PAY/REC": "./trades/trade/tradeBody/currencySwap/stream/payReceive", "Leg 1 Payment Currency": "./trades/trade/tradeBody/interestRateSwap/stream/streamTemplate/paymentCurrency", "Leg 2 Payment Currency": "./trades/trade/tradeBody/interestRateSwap/stream/streamTemplate/paymentCurrency"}, "OIS": {"Instrument2": "./trades/trade/tradeBody/interestRateSwap/templateID/templateLabel", "Maturity": "./trades/trade/tradeBody/interestRateSwap/stream/maturity", "Nominal": "./trades/trade/tradeBody/interestRateSwap/stream[1]/cashFlows/interestFlows/interestPaymentPeriod/calculationPeriod/notionalAmount", "Amortizing Type": "./trades/trade/tradeBody/interestRateSwap/stream/streamTemplate/amortizingType"}, "Swaption European": {"Instrument2": "./trades/trade/tradeBody/swaption/templateID/templateLabel", "Maturity": "./trades/trade/tradeBody/swaption/stream/maturity", "Nominal": "./trades/trade/tradeBody/swaption/stream/capital/initialCapitalAmount"}, "Swap COM": {"Instrument2": "./trades/trade/tradeBody/commoditySwap/templateID/templateLabel", "Maturity": "./trades/trade/tradeBody/commoditySwap/stream[1]/maturity", "Nominal": "./trades/trade/tradeBody/commoditySwap/stream[1]/cashFlows/interestFlows/interestPaymentPeriod[1]/calculationPeriod/notionalAmount"}, "FX Future": {"Instrument2": "./trades/trade/tradeBody/fxfuture/futureId/Futurelabel", "Market": "./trades/trade/tradeBody/fxfuture/futureId/futureMarket", "Rate": "./trades/trade/tradeBody/fxfuture/fxFuturePrice/rate"}, "IR Future": {"Instrument2": "./trades/trade/tradeBody/interestRateFuture/futureid/futureDisplayLabel", "Nominal": "./trades/trade/tradeBody/interestRateFuture/nominalAmount"}, "FX Swap": {"CCY pair": "./trades/trade/tradeBody/fxSwapLeg/riskSection", "Rate": "./trades/trade/tradeBody/fxSwapLeg/exchangeRate/rate", "Nominal": "./trades/trade/tradeBody/fxSwapLeg/currency1Flow/amount"}, "Depo": {"Instrument2": "./trades/trade/tradeBody/loanDeposit/templateGenerationData/currency", "Nominal": "./trades/trade/tradebody/loanDeposit/stream/capital/initialCapitalAmount"}, "SCF": {}, "Loan Deposit": {}, "Outright": {}, "NDF": {}, "CD": {}, "CP": {}, "Call Account": {}, "Fiduc. Loan Deposit": {"DendoList": "./contracts/contract/contractHeader/contractSource/contractOriginReference/contractId/internalId"}, "Callable Loan Depo": {}, "IPIS_IN": {}, "IPIS_OUT": {"Contract Id": "./contracts/contract/contractHeader/contractSource/contractOriginReference/contractId/internalId", "IPS_out1": "./trades/trade/tradeBody/simpleCashFlows/plInstrument", "IPS_out2": "./trades/trade/tradeBody/simpleCashFlows/plInstrumentFamily", "IPS_out3": "./trades/trade/settlementInstructions/settlementInstruction/settlementInstructionDescription/nostroReferenceId", "IPS_out4": "./trades/trade/settlementInstructions/settlementInstruction/settlementInstructionDescription/vostroReferenceId", "IPS_out5": "./trades/trade/settlementInstructions/settlementInstruction/settlementInstructionDescription/date"}, "Reserve": {"plInstrument": "./trades/trade/tradeBody/simpleCashFlows/plInstrument", "plInstrumentFamily": "./trades/trade/tradeBody/simpleCashFlows/plInstrumentFamily"}, "RPIS_IN": {"Contract Id": "./contracts/contract/contractHeader/contractSource/contractOriginReference/contractId/internalId"}, "RPIS_OUT": {}, "FRA": {"templateLabel": "./trades/trade/tradeBody/fra/templateID/templateLabel"}, "Xccy FX Reset": {}, "Non Deliverable Swap": {}, "Xccy FX non-Reset": {}, "Inflation Swap": {}, "Sub. Loan Deposit": {"Contract Id": "./contracts/contract/contractHeader/contractSource/contractOriginReference/contractId/internalId"}, "ND Loan Deposit": {}, "Fiduc. Call Account": {"Contract Id": "./contracts/contract/contractHeader/contractSource/contractOriginReference/contractId/internalId"}, "Mandatory Reserve": {}, "Bond": {}, "Non Deliv. Xccy Swap": {"Contract Id": "./contracts/contract/contractHeader/contractSource/contractOriginReference/contractId/internalId"}, "Collateral Cash": {"Display Label": "./trades/trade/tradeBody/callDeposit/businessObjectId/displayLabel", "Template label": "./trades/trade/tradeBody/callDeposit/templateID/templateLabel", "Stub": "./trades/trade/tradeBody/callDeposit/structure/stubPeriodPosition", "Payment Currency": "./trades/trade/tradeBody/callDeposit/stream/streamTemplate/paymentCurrency"}}
+{
+    "Unique_Column": {
+        "Contract Id": [
+            "./contracts/contract/contractId/internalId",
+            "./trades/trade/tradeHeader/contractReference/contractId/internalId",
+            "./contracts/contract/contractHeader/contractSource/contractOriginReference/contractId/internalId"
+        ],
+        "Portfolio": [
+            "./trades/trade/portfolios/portfolio/portfolioLabel"
+        ]
+    },
+    "Check_attributes": {
+        "Events": "mefClass"
+    },
+    "Check_instance": {
+        "Events": "All"
+    },
+    "Grouping_Column": "Typology",
+    "common_tags": {
+        "tradeFamily": ".//tradeFamily",
+        "tradeGroup": ".//tradeGroup",
+        "tradeType": ".//tradeType",
+        "Internal/External": "./trades/trade/tradeHeader/tradeCategory/tradeDestination",
+        "Trade Status": "./trades/trade/tradeStatus/physicalStatus",
+        "Portfolio": "./trades/trade/portfolios/portfolio/portfolioLabel",
+        "User Name": "./documentProperties/producedBy/user/name",
+        "User Group": "./documentProperties/producedBy/user/group",
+        "User Desk": "./documentProperties/producedBy/user/desk",
+        "Clearing Eligibility": "./contracts/contract/regulatoryInformation/clearingEligibility",
+        "Typology": "./contracts/contract/contractHeader/contractCategory/typology",
+        "Source System": "./contracts/contract/contractHeader/contractSource/sourceSystem",
+        "Entity": "./trades/trade/tradeHeader/tradeViews/tradeView/entity",
+        "Trade Insert": "./trades/trade/tradeVersions/tradeVersion/action",
+        "Flow Currency": "./trades/trade/settlementInstructions/settlementInstruction/settlementInstructionKey/flowCurrency",
+        "Last Contract Event Action": "./contracts/contract/contractHeader/contractSource/lastContractEventAction",
+        "Payment Netting": "./trades/trade/tradeHeader/tradeAgreements/paymentNetting",
+        "Party Name": "./documentProperties/producedBy/partyName",
+        "Contract Id": "./contracts/contract/contractId/internalId",
+        "EventLastAction": "./contracts/contract/contractHeader/contractSource/lastContractEventAction",
+        "ClearingEligibility": "./contracts/contract/regulatoryInformation/clearingEligibility",
+        "clearingMandatory": "./contracts/contract/regulatoryInformation/clearingMandatory",
+        "ClearingDecision": "./contracts/contract/regulatoryInformation/clearingDecision",
+        "NettingEligibility": "./contracts/contract/regulatoryInformation/nettingEligibility",
+        "CollateralAgreement_Exclude from pool": "./contracts/contract/contractHeader/collateralAgreement/excludeFromPool",
+        "SourceSystem": "./contracts/contract/contractHeader/contractSource/sourceSystem",
+        "originPublishingSystem": "./contracts/contract/contractHeader/contractSource/originPublishingSystem",
+        "publishingSystem": "./contracts/contract/contractHeader/contractSource/publishingSystem",
+        "SCF plInstrument": "./trades/trade/tradeBody/*/plInstrument",
+        "SCF plInstrumentFamily": "./trades/trade/tradeBody/*/plInstrumentFamily",
+        "Future Label": "./trades/trade/tradeBody/*/futureId/futureLabel",
+        "futureDisplayLabel": "./trades/trade/tradeBody/*/futureId/futureDisplayLabel",
+        "futureMarket": "./trades/trade/tradeBody/*/futureId/futureMarket",
+        "security code": "./trades/trade/tradeBody/*/securityId/securityCode",
+        "security display label": "./trades/trade/tradeBody/*/securityId/securityDisplayLabel",
+        "generator": "./trades/trade/tradeBody/*/templateID/templateLabel",
+        "Counter Party": "trades/trade/parties/party[2]/partyName",
+        "counterParty": "trades/trade/parties/party[2]/partyName",
+        "counterPartyblaba": "./trades/trade/parties/party[2]/partyName",
+        "Events": "./contracts/contract/contractHeader/contractSource/lastContractEventReference"
+    },
+    "IRS": {
+        "Nominal": "./trades/trade/tradeBody/interestRateSwap/stream/capital/initialCapitalAmount",
+        "Maturity": "./trades/trade/tradeBody/interestRateSwap/stream/maturity",
+        "Template Label": "./trades/trade/tradeBody/interestRateSwap/templateID/templateLabel",
+        "Amortizing Type": "./trades/trade/tradeBody/interestRateSwap/stream/streamTemplate/amortizingType",
+        "PAY/REC": "./trades/trade/tradeBody/interestRateSwap/stream/payReceive",
+        "Leg 1 Payment Currency": "./trades/trade/tradeBody/interestRateSwap/stream/streamTemplate/paymentCurrency",
+        "Leg 2 Payment Currency": "./trades/trade/tradeBody/interestRateSwap/stream/streamTemplate/paymentCurrency"
+    },
+    "Spot": {
+        "CCY pair": "./trades/trade/tradeBody/fxSpotForward/riskSection",
+        "Rate": "./trades/trade/tradeBody/fxSpotForward/exchangeRate/rate",
+        "Nominal": "./trades/trade/tradeBody/fxSpotForward/currency1Flow/amount",
+        "Currency1": "./trades/trade/tradeBody/fxSpotForward/fxSpot/fxQuotation/currency1",
+        "Currency2": "./trades/trade/tradeBody/fxSpotForward/fxSpot/fxQuotation/currency2"
+    },
+    "Bond Future": {
+        "Nominal": "./trades/trade/tradeBody/bondFuture/nominalAmount",
+        "Expiry": "./trades/trade/tradeBody/bondFuture/futureId/expiryDate"
+    },
+    "Xccy Swap": {
+        "Instrument2": "./trades/trade/tradeBody/currencySwap/templateID/templateLabel",
+        "Maturity": "./trades/trade/tradeBody/currencySwap/stream[1]/maturity",
+        "Currency1 Amount": "./trades/trade[@mefClass='mxContractITRADE']/tradeBody/currencySwap/stream[1]/capital/initialCapitalAmount",
+        "Amortizing Type": "./trades/trade/tradeBody/interestRateSwap/stream/streamTemplate/amortizingType",
+        "PAY/REC": "./trades/trade/tradeBody/currencySwap/stream/payReceive",
+        "Leg 1 Payment Currency": "./trades/trade/tradeBody/interestRateSwap/stream/streamTemplate/paymentCurrency",
+        "Leg 2 Payment Currency": "./trades/trade/tradeBody/interestRateSwap/stream/streamTemplate/paymentCurrency"
+    },
+    "OIS": {
+        "Instrument2": "./trades/trade/tradeBody/interestRateSwap/templateID/templateLabel",
+        "Maturity": "./trades/trade/tradeBody/interestRateSwap/stream/maturity",
+        "Nominal": "./trades/trade/tradeBody/interestRateSwap/stream[1]/cashFlows/interestFlows/interestPaymentPeriod/calculationPeriod/notionalAmount",
+        "Amortizing Type": "./trades/trade/tradeBody/interestRateSwap/stream/streamTemplate/amortizingType"
+    },
+    "Swaption European": {
+        "Instrument2": "./trades/trade/tradeBody/swaption/templateID/templateLabel",
+        "Maturity": "./trades/trade/tradeBody/swaption/stream/maturity",
+        "Nominal": "./trades/trade/tradeBody/swaption/stream/capital/initialCapitalAmount"
+    },
+    "Swap COM": {
+        "Instrument2": "./trades/trade/tradeBody/commoditySwap/templateID/templateLabel",
+        "Maturity": "./trades/trade/tradeBody/commoditySwap/stream[1]/maturity",
+        "Nominal": "./trades/trade/tradeBody/commoditySwap/stream[1]/cashFlows/interestFlows/interestPaymentPeriod[1]/calculationPeriod/notionalAmount"
+    },
+    "FX Future": {
+        "Instrument2": "./trades/trade/tradeBody/fxfuture/futureId/Futurelabel",
+        "Market": "./trades/trade/tradeBody/fxfuture/futureId/futureMarket",
+        "Rate": "./trades/trade/tradeBody/fxfuture/fxFuturePrice/rate"
+    },
+    "IR Future": {
+        "Instrument2": "./trades/trade/tradeBody/interestRateFuture/futureid/futureDisplayLabel",
+        "Nominal": "./trades/trade/tradeBody/interestRateFuture/nominalAmount"
+    },
+    "FX Swap": {
+        "CCY pair": "./trades/trade/tradeBody/fxSwapLeg/riskSection",
+        "Rate": "./trades/trade/tradeBody/fxSwapLeg/exchangeRate/rate",
+        "Nominal": "./trades/trade/tradeBody/fxSwapLeg/currency1Flow/amount"
+    },
+    "Depo": {
+        "Instrument2": "./trades/trade/tradeBody/loanDeposit/templateGenerationData/currency",
+        "Nominal": "./trades/trade/tradebody/loanDeposit/stream/capital/initialCapitalAmount"
+    },
+    "SCF": {},
+    "Loan Deposit": {},
+    "Outright": {},
+    "NDF": {},
+    "CD": {},
+    "CP": {},
+    "Call Account": {},
+    "Fiduc. Loan Deposit": {
+        "DendoList": "./contracts/contract/contractHeader/contractSource/contractOriginReference/contractId/internalId"
+    },
+    "Callable Loan Depo": {},
+    "IPIS_IN": {},
+    "IPIS_OUT": {
+        "Contract Id": "./contracts/contract/contractHeader/contractSource/contractOriginReference/contractId/internalId",
+        "IPS_out1": "./trades/trade/tradeBody/simpleCashFlows/plInstrument",
+        "IPS_out2": "./trades/trade/tradeBody/simpleCashFlows/plInstrumentFamily",
+        "IPS_out3": "./trades/trade/settlementInstructions/settlementInstruction/settlementInstructionDescription/nostroReferenceId",
+        "IPS_out4": "./trades/trade/settlementInstructions/settlementInstruction/settlementInstructionDescription/vostroReferenceId",
+        "IPS_out5": "./trades/trade/settlementInstructions/settlementInstruction/settlementInstructionDescription/date"
+    },
+    "Reserve": {
+        "plInstrument": "./trades/trade/tradeBody/simpleCashFlows/plInstrument",
+        "plInstrumentFamily": "./trades/trade/tradeBody/simpleCashFlows/plInstrumentFamily"
+    },
+    "RPIS_IN": {
+        "Contract Id": "./contracts/contract/contractHeader/contractSource/contractOriginReference/contractId/internalId"
+    },
+    "RPIS_OUT": {},
+    "FRA": {
+        "templateLabel": "./trades/trade/tradeBody/fra/templateID/templateLabel"
+    },
+    "Xccy FX Reset": {},
+    "Non Deliverable Swap": {},
+    "Xccy FX non-Reset": {},
+    "Inflation Swap": {},
+    "Sub. Loan Deposit": {
+        "Contract Id": "./contracts/contract/contractHeader/contractSource/contractOriginReference/contractId/internalId"
+    },
+    "ND Loan Deposit": {},
+    "Fiduc. Call Account": {
+        "Contract Id": "./contracts/contract/contractHeader/contractSource/contractOriginReference/contractId/internalId"
+    },
+    "Mandatory Reserve": {},
+    "Bond": {},
+    "Non Deliv. Xccy Swap": {
+        "Contract Id": "./contracts/contract/contractHeader/contractSource/contractOriginReference/contractId/internalId"
+    },
+    "Collateral Cash": {
+        "Display Label": "./trades/trade/tradeBody/callDeposit/businessObjectId/displayLabel",
+        "Template label": "./trades/trade/tradeBody/callDeposit/templateID/templateLabel",
+        "Stub": "./trades/trade/tradeBody/callDeposit/structure/stubPeriodPosition",
+        "Payment Currency": "./trades/trade/tradeBody/callDeposit/stream/streamTemplate/paymentCurrency"
+    }
+}
