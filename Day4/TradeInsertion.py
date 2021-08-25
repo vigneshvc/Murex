@@ -15,7 +15,7 @@ def getDictContent(content1, unique_column1):
 
 def updateUniqueColumn(content, unique_column):
     if unique_column in content['Unique_Column'].keys():
-        return
+        return content
     content['Unique_Column'][unique_column] = getDictContent(content,unique_column)
     return content
 
