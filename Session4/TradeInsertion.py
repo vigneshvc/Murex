@@ -7,7 +7,6 @@ def getDictContent(content1, unique_column1):
         if type(v) == dict:
             fnd.extend(getDictContent(v,unique_column1))
         else:
-            #print(k,'---',v)
             if k==unique_column1:
                 fnd.append(v)
     return fnd
@@ -24,7 +23,6 @@ filename = 'dendo_patterns.json'
 f = open(filename, 'r')
 data = json.load(f)
 imperative_name = 'TradeInsertion'
-#print(data)
 unique_column = 'Portfolio'
 data[imperative_name]['Unique_Column'] = unique_column
 with open(filename, 'w') as outfile:
