@@ -1,0 +1,343 @@
+Category,Level1,Level2,Level3,Level4,Level5,Count
+Murex, ,Type A,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,1
+Murex, ,Type A,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,1
+Murex, ,Type B,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,1
+Murex, ,Type C,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_Purge,2
+Murex,Bond Future,Type D,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,6
+Murex,Bond Future,Type E,doc_init_RISK_Validation,doc_init_RISK_Validation,doc_init_RISK_Processed,3
+Murex,Bond Future,Type E,doc_init_RISK_Validation,doc_init_RISK_Validation,doc_init_RISK_releaseProcessedEntriesTimer,3
+Murex,CD,Type F,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,1
+Murex,Call Account,Type G,Outbound_ErrMngt_technicalOSP_1,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,3
+Murex,Call Account,Type G,Authorisation queue for regulatory exceptions_1,uri_regulatoryExceptionQueue,uri_purge,4
+Murex,Call Account,Type G,Authorisation queue to hold the outbound message until inbound communication is received_1,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,2
+Murex,Call Account,Type G,Authorisation queue for regulatory exceptions_2,uri_regulatoryExceptionQueue,uri_purge,10
+Murex,Call Account,Type G,Authorisation queue to hold the outbound message until inbound communication is received_2,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,1
+Murex,Call Account,Type G,Queue to hold items waiting to be matched_1,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,18
+Murex,Call Account,Type G,Authorisation queue to hold the outbound message until inbound communication is received_3,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,1
+Murex,Call Account,Type G,Queue to hold items waiting to be matched_2,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,21
+Murex,Call Account,Type G,Authorisation queue for regulatory exceptions_3,uri_regulatoryExceptionQueue,uri_purge,13
+Murex,Call Account,Type G,Authorisation queue to hold the outbound message until inbound communication is received_4,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,2
+Murex,Call Account,Type G,Queue to hold items waiting to be matched_3,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,11
+Murex,Call Account,Type G,Outbound_ErrMngt_technicalOSP_2,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,1
+Murex,Call Account,Type H,FO_ErrMngt_functionalOSP,FO_ErrMngt_functionalOSP,FO_ErrMngt_chkforASTIn,19
+Murex,FRA,Type I,Outbond_ErrMngt_functionalOSP,Outbond_ErrMngt_functionalOSP,Outbound_ErrMngt_Purge,18
+Murex,FRA,Type J,Outbond_ErrMngt_functionalOSP,Outbond_ErrMngt_functionalOSP,Outbound_ErrMngt_Purge,6
+Murex,FX Swap,Type K,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,342
+Murex,FX Swap,Type B,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,94
+Murex,FX Swap,Type F,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,288
+Murex,FX Swap,Type L,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,132
+Murex,FX Swap,Type M,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,2
+Murex,FX Swap,Type M,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,2
+Murex,FX Swap,Type N,Authorisation queue for regulatory exceptions_1,uri_regulatoryExceptionQueue,uri_purge,3
+Murex,FX Swap,Type N,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,2
+Murex,FX Swap,Type N,Authorisation queue for regulatory exceptions_2,uri_regulatoryExceptionQueue,uri_purge,2
+Murex,FX Swap,Type O,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,30
+Murex,FX Swap,Type P,Ops queue to hold unmatched items for discard/retry,mat_outbound_unmatched,mat_outbound_waitForMatchMessage,4
+Murex,FX Swap,Type P,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,4
+Murex,FX Swap,Type Q,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,24
+Murex,FX Swap,Type R,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,71
+Murex,FX Swap,Type S,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,166
+Murex,FX Swap,Type T,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,2
+Murex,FX Swap,Type T,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,2
+Murex,FX Swap,Type T,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,2
+Murex,FX Swap,Type U,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,3
+Murex,FX Swap,Type U,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,3
+Murex,FX Swap,Type V,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,3
+Murex,FX Swap,Type V,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,3
+Murex,FX Swap,Type W,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,16
+Murex,FX Swap,Type X,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,48
+Murex,FX Swap,Type Y,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,40
+Murex,FX Swap,Type Z,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,51
+Murex,FX Swap,Type AA,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,2
+Murex,FX Swap,Type AA,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,2
+Murex,FX Swap,Type AB,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,6
+Murex,FX Swap,Type AC,doc_init_RISK_Validation,doc_init_RISK_Validation,doc_init_RISK_Processed,2
+Murex,FX Swap,Type AC,doc_init_RISK_Validation,doc_init_RISK_Validation,doc_init_RISK_releaseProcessedEntriesTimer,2
+Murex,FX Swap,Type AD,doc_init_RISK_Validation_1,doc_init_RISK_Validation,doc_init_RISK_Processed,3
+Murex,FX Swap,Type AD,doc_init_RISK_Validation_1,doc_init_RISK_Validation,doc_init_RISK_releaseProcessedEntriesTimer,3
+Murex,FX Swap,Type AD,doc_init_RISK_Validation_2,doc_init_RISK_Validation,doc_init_RISK_Processed,1
+Murex,FX Swap,Type AD,doc_init_RISK_Validation_2,doc_init_RISK_Validation,doc_init_RISK_releaseProcessedEntriesTimer,1
+Murex,FX Swap,Type E,doc_init_RISK_Validation,doc_init_RISK_Validation,doc_init_RISK_Processed,8
+Murex,FX Swap,Type E,doc_init_RISK_Validation,doc_init_RISK_Validation,doc_init_RISK_releaseProcessedEntriesTimer,8
+Murex,FX Swap,Type AE,doc_init_RISK_Validation_1,doc_init_RISK_Validation,doc_init_RISK_Processed,2
+Murex,FX Swap,Type AE,doc_init_RISK_Validation_1,doc_init_RISK_Validation,doc_init_RISK_releaseProcessedEntriesTimer,2
+Murex,FX Swap,Type AE,doc_init_RISK_Validation_2,doc_init_RISK_Validation,doc_init_RISK_Processed,1
+Murex,FX Swap,Type AE,doc_init_RISK_Validation_2,doc_init_RISK_Validation,doc_init_RISK_releaseProcessedEntriesTimer,1
+Murex,FX Swap,Type AF,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,2
+Murex,FX Swap,Type AF,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,2
+Murex,FX Swap,Type AG,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,13
+Murex,FX Swap,Type AH,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,5
+Murex,FX Swap,Type AI,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,8
+Murex,FX Swap,Type AI,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,4
+Murex,FX Swap,Type AI,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,8
+Murex,FX Swap,Type AJ,Outbound_ErrMngt_technicalOSP_1,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,1
+Murex,FX Swap,Type AJ,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,1
+Murex,FX Swap,Type AJ,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,2
+Murex,FX Swap,Type AJ,Outbound_ErrMngt_technicalOSP_2,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,1
+Murex,FX Swap,Type AJ,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,2
+Murex,FX Swap,Type AK,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,3
+Murex,FX Swap,Type AL,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,4
+Murex,FX Swap,Type AL,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,1
+Murex,FX Swap,Type AM,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,3
+Murex,FX Swap,Type AM,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,3
+Murex,FX Swap,Type AN,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,1
+Murex,FX Swap,Type AN,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,1
+Murex,FX Swap,Type AO,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,9
+Murex,FX Swap,Type AP,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,2
+Murex,FX Swap,Type AP,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,2
+Murex,FX Swap,Type AQ,Outbound_ErrMngt_technicalOSP_1,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,1
+Murex,FX Swap,Type AQ,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,2
+Murex,FX Swap,Type AQ,Outbound_ErrMngt_technicalOSP_2,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,1
+Murex,FX Swap,Type AQ,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,2
+Murex,FX Swap,Type AR,doc_pc_TradeValidation,doc_pc_TradeValidation,doc_pc_Purge,2
+Murex,FX Swap,Type AS,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,21
+Murex,FX Swap,Type AT,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,3
+Murex,FX Swap,Type AT,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,1
+Murex,FX Swap,Type AU,Document nacked authorisation queue,ackNack_confirmation_outbound_nacked,ackNack_confirmation_finalPoint,2
+Murex,FX Swap,Type AV,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,1
+Murex,FX Swap,Type AV,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,1
+Murex,FX Swap,Type AW,Settlement message wait for ACK/NACK queue (manual and automatic (via Flow trigger Task)),ackNack_settlement_waitForAckNack,ackNack_settlement_messageNacked,1
+Murex,FX Swap,Type AW,Settlement message Nack'd queue,ackNack_settlement_messageNacked,ackNack_settlement_qngSwiftMessageCheck,1
+Murex,FX Swap,Type AX,Ops queue to hold unmatched items for discard/retry_1,mat_outbound_unmatched,mat_outbound_waitForMatchMessage,1
+Murex,FX Swap,Type AX,Queue to hold items waiting to be matched_1,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,1
+Murex,FX Swap,Type AX,Ops queue to hold unmatched items for discard/retry_2,mat_outbound_unmatched,mat_outbound_waitForMatchMessage,1
+Murex,FX Swap,Type AX,Queue to hold items waiting to be matched_2,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,1
+Murex,FX Swap,Type AY,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,1
+Murex,FX Swap,Type AY,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,2
+Murex,FX Swap,Type AY,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,2
+Murex,FX Swap,Type AZ,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,1
+Murex,FX Swap,Type AZ,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,2
+Murex,FX Swap,Type BA,Outbound_ErrMngt_technicalOSP_1,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,2
+Murex,FX Swap,Type BA,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,3
+Murex,FX Swap,Type BA,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,2
+Murex,FX Swap,Type BA,Outbound_ErrMngt_technicalOSP_2,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,1
+Murex,FX Swap,Type BB,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,1
+Murex,FX Swap,Type BB,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,3
+Murex,FX Swap,Type BC,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,1
+Murex,FX Swap,Type BC,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,3
+Murex,FX Swap,Type BC,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,1
+Murex,FX Swap,Type BD,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,4
+Murex,FX Swap,Type BD,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,4
+Murex,FX Swap,Type BE,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,2
+Murex,FX Swap,Type BF,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,6
+Murex,FX Swap,Type BG,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,8
+Murex,FX Swap,Type BG,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,2
+Murex,FX Swap,Type BH,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,2
+Murex,FX Swap,Type BH,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,1
+Murex,FX Swap,Type BH,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,1
+Murex,FX Swap,Type BI,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,3
+Murex,FX Swap,Type BI,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,2
+Murex,FX Swap,Type BJ,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,3
+Murex,FX Swap,Type BJ,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,3
+Murex,FX Swap,Type BK,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,1
+Murex,FX Swap,Type BK,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,2
+Murex,FX Swap,Type BL,Queue for failed ANNA requests.,anna_failed_request_queue,anna_purge,1
+Murex,FX Swap,Type A,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,1
+Murex,FX Swap,Type A,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,1
+Murex,FX Swap,Type BM,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,1
+Murex,FX Swap,Type BM,Settlement message wait for ACK/NACK queue (manual and automatic (via Flow trigger Task)),ackNack_settlement_waitForAckNack,ackNack_settlement_messageNacked,1
+Murex,FX Swap,Type BM,Settlement message Nack'd queue,ackNack_settlement_messageNacked,ackNack_settlement_qngSwiftMessageCheck,1
+Murex,Fiduc. Loan Deposit,Type AV,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,2
+Murex,Fiduc. Loan Deposit,Type AV,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,2
+Murex,Fiduc. Loan Deposit,Type AF,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,2
+Murex,Fiduc. Loan Deposit,Type AF,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,2
+Murex,Fiduc. Loan Deposit,Type F,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,2
+Murex,Fiduc. Loan Deposit,Type AK,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,3
+Murex,Fiduc. Loan Deposit,Type BN,Ops queue to hold unmatched items for discard/retry,mat_outbound_unmatched,mat_finalPoint,1
+Murex,IR Future,Type F,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,1106
+Murex,IR Future,Type S,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,1076
+Murex,IR Future,Type E,doc_init_RISK_Validation,doc_init_RISK_Validation,doc_init_RISK_Processed,8
+Murex,IR Future,Type E,doc_init_RISK_Validation,doc_init_RISK_Validation,doc_init_RISK_releaseProcessedEntriesTimer,8
+Murex,IR Future,Type L,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,18
+Murex,IR Future,Type BO,Queue for failed ANNA requests._1,anna_failed_request_queue,anna_purge,1
+Murex,IR Future,Type BO,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,24
+Murex,IR Future,Type BO,Queue for failed ANNA requests._2,anna_failed_request_queue,anna_purge,6
+Murex,IR Future,Type BP,Queue for failed ANNA requests._1,anna_failed_request_queue,anna_purge,1
+Murex,IR Future,Type BP,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,21
+Murex,IR Future,Type BP,Queue for failed ANNA requests._2,anna_failed_request_queue,anna_purge,9
+Murex,IR Future,Type BQ,Queue for failed ANNA requests._1,anna_failed_request_queue,anna_purge,1
+Murex,IR Future,Type BQ,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,23
+Murex,IR Future,Type BQ,Queue for failed ANNA requests._2,anna_failed_request_queue,anna_purge,6
+Murex,IR Future,Type BR,Queue for failed ANNA requests._1,anna_failed_request_queue,anna_purge,1
+Murex,IR Future,Type BR,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,19
+Murex,IR Future,Type BR,Queue for failed ANNA requests._2,anna_failed_request_queue,anna_purge,6
+Murex,IRS,Type Q,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,1482
+Murex,IRS,Type R,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,739
+Murex,IRS,Type F,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,218
+Murex,IRS,Type L,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,462
+Murex,IRS,Type AG,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,13
+Murex,IRS,Type BS,Exception Validation,doc_gen_exceptionValidation,ei_RefreshStartPoint,6
+Murex,IRS,Type B,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,6
+Murex,IRS,Type BT,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,6
+Murex,IRS,Type BT,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,6
+Murex,IRS,Type BU,doc_init_RISK_Validation_1,doc_init_RISK_Validation,doc_init_RISK_Processed,1
+Murex,IRS,Type BU,doc_init_RISK_Validation_1,doc_init_RISK_Validation,doc_init_RISK_releaseProcessedEntriesTimer,1
+Murex,IRS,Type BU,doc_init_RISK_Validation_2,doc_init_RISK_Validation,doc_init_RISK_Processed,1
+Murex,IRS,Type BU,doc_init_RISK_Validation_2,doc_init_RISK_Validation,doc_init_RISK_releaseProcessedEntriesTimer,1
+Murex,IRS,Type S,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,340
+Murex,IRS,Type U,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,11
+Murex,IRS,Type U,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,11
+Murex,IRS,Type X,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,68
+Murex,IRS,Type BV,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_Purge,3
+Murex,IRS,Type BN,Ops queue to hold unmatched items for discard/retry,mat_outbound_unmatched,mat_finalPoint,1
+Murex,IRS,Type C,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_Purge,4
+Murex,IRS,Type J,Outbond_ErrMngt_functionalOSP,Outbond_ErrMngt_functionalOSP,Outbound_ErrMngt_Purge,2
+Murex,IRS,Type BW,Document nacked authorisation queue,ackNack_confirmation_outbound_nacked,ackNack_confirmation_finalPoint,1
+Murex,Loan Deposit,Type BW,Document nacked authorisation queue,ackNack_confirmation_outbound_nacked,ackNack_confirmation_finalPoint,7
+Murex,Loan Deposit,Type AG,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,20
+Murex,Loan Deposit,Type E,doc_init_RISK_Validation,doc_init_RISK_Validation,doc_init_RISK_Processed,117
+Murex,Loan Deposit,Type E,doc_init_RISK_Validation,doc_init_RISK_Validation,doc_init_RISK_releaseProcessedEntriesTimer,117
+Murex,Loan Deposit,Type F,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,133
+Murex,Loan Deposit,Type AK,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,16
+Murex,Loan Deposit,Type AV,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,9
+Murex,Loan Deposit,Type AV,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,9
+Murex,Loan Deposit,Type B,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,65
+Murex,Loan Deposit,Type S,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,542
+Murex,Loan Deposit,Type L,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,9
+Murex,Loan Deposit,Type K,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,2
+Murex,Loan Deposit,Type AM,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,1
+Murex,Loan Deposit,Type AM,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,1
+Murex,Loan Deposit,Type BX,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,2
+Murex,Loan Deposit,Type BX,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_Purge,1
+Murex,Loan Deposit,Type AF,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,1
+Murex,Loan Deposit,Type AF,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,1
+Murex,Loan Deposit,Type J,Outbond_ErrMngt_functionalOSP,Outbond_ErrMngt_functionalOSP,Outbound_ErrMngt_Purge,2
+Murex,Loan Deposit,Type BY,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_Purge,4
+Murex,Loan Deposit,Type BZ,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,2
+Murex,Loan Deposit,Type BZ,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_Purge,2
+Murex,Loan Deposit,Type CA,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_Purge,4
+Murex,ND FX Swap,Type K,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,2
+Murex,NDF,Type B,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,36
+Murex,NDF,Type AG,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,31
+Murex,NDF,Type CB,Outbond_ErrMngt_functionalOSP,Outbond_ErrMngt_functionalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,2
+Murex,NDF,Type CB,Outbond_ErrMngt_functionalOSP,Outbond_ErrMngt_functionalOSP,Outbound_ErrMngt_Purge,2
+Murex,NDF,Type CC,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,7
+Murex,NDF,Type CC,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,7
+Murex,NDF,Type AM,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,5
+Murex,NDF,Type AM,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,5
+Murex,NDF,Type R,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,1
+Murex,NDF,Type C,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_Purge,1
+Murex,NDF,Type AV,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,4
+Murex,NDF,Type AV,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,4
+Murex,NDF,Type F,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,17
+Murex,NDF,Type CD,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,1
+Murex,NDF,Type CD,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,1
+Murex,NDF,Type AK,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,2
+Murex,NDF,Type K,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,2
+Murex,NDF,Type CE,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,1
+Murex,NDF,Type CE,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,2
+Murex,Non Deliv. Xccy Swap,Type F,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,2
+Murex,Non Deliv. Xccy Swap,Type AG,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,1
+Murex,Non Deliverable Swap,Type F,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,1
+Murex,OIS,Type F,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,4
+Murex,OIS,Type E,doc_init_RISK_Validation,doc_init_RISK_Validation,doc_init_RISK_Processed,2
+Murex,OIS,Type E,doc_init_RISK_Validation,doc_init_RISK_Validation,doc_init_RISK_releaseProcessedEntriesTimer,2
+Murex,OIS,Type AG,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,2
+Murex,Outright,Type S,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,24
+Murex,Outright,Type L,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,9
+Murex,Outright,Type X,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,4
+Murex,Outright,Type B,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,99
+Murex,Outright,Type CF,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,1
+Murex,Outright,Type CF,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,5
+Murex,Outright,Type CG,Outbound_ErrMngt_technicalOSP_1,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,6
+Murex,Outright,Type CG,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,6
+Murex,Outright,Type CG,Outbound_ErrMngt_technicalOSP_2,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,24
+Murex,Outright,Type CH,Outbound_ErrMngt_technicalOSP_1,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,4
+Murex,Outright,Type CH,Queue for failed ANNA requests._1,anna_failed_request_queue,anna_is_contract_live,4
+Murex,Outright,Type CH,Outbound_ErrMngt_technicalOSP_2,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,16
+Murex,Outright,Type CH,Queue for failed ANNA requests._2,anna_failed_request_queue,anna_is_contract_live,4
+Murex,Outright,Type CI,Outbound_ErrMngt_technicalOSP_1,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,24
+Murex,Outright,Type CI,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,8
+Murex,Outright,Type CI,Outbound_ErrMngt_technicalOSP_2,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,8
+Murex,Outright,Type AK,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,43
+Murex,Outright,Type M,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,2
+Murex,Outright,Type M,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,2
+Murex,Outright,Type AW,Settlement message wait for ACK/NACK queue (manual and automatic (via Flow trigger Task)),ackNack_settlement_waitForAckNack,ackNack_settlement_messageNacked,9
+Murex,Outright,Type AW,Settlement message Nack'd queue,ackNack_settlement_messageNacked,ackNack_settlement_qngSwiftMessageCheck,9
+Murex,Outright,Type F,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,49
+Murex,Outright,Type C,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_Purge,3
+Murex,Outright,Type CJ,Outbound_ErrMngt_technicalOSP_1,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,4
+Murex,Outright,Type CJ,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,2
+Murex,Outright,Type CJ,Outbound_ErrMngt_technicalOSP_2,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,2
+Murex,Outright,Type CK,Outbound_ErrMngt_technicalOSP_1,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,20
+Murex,Outright,Type CK,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,20
+Murex,Outright,Type CK,Outbound_ErrMngt_technicalOSP_2,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,20
+Murex,Outright,Type CL,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,2
+Murex,Outright,Type CL,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,1
+Murex,Outright,Type BE,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,32
+Murex,Outright,Type BU,doc_init_RISK_Validation_1,doc_init_RISK_Validation,doc_init_RISK_Processed,1
+Murex,Outright,Type BU,doc_init_RISK_Validation_1,doc_init_RISK_Validation,doc_init_RISK_releaseProcessedEntriesTimer,1
+Murex,Outright,Type BU,doc_init_RISK_Validation_2,doc_init_RISK_Validation,doc_init_RISK_Processed,1
+Murex,Outright,Type BU,doc_init_RISK_Validation_2,doc_init_RISK_Validation,doc_init_RISK_releaseProcessedEntriesTimer,1
+Murex,Outright,Type AM,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,5
+Murex,Outright,Type AM,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,5
+Murex,Outright,Type CM,Settlement message Nack'd queue_1,ackNack_settlement_messageNacked,ackNack_settlement_qngSwiftMessageCheck,1
+Murex,Outright,Type CM,Settlement message wait for ACK/NACK queue (manual and automatic (via Flow trigger Task)),ackNack_settlement_waitForAckNack,ackNack_settlement_messageNacked,1
+Murex,Outright,Type CM,Settlement message Nack'd queue_2,ackNack_settlement_messageNacked,ackNack_settlement_qngSwiftMessageCheck,1
+Murex,Outright,Type AG,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,1
+Murex,Outright,Type CN,Document nacked authorisation queue,ackNack_confirmation_outbound_nacked,ackNack_confirmation_finalPoint,3
+Murex,Outright,Type CN,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,3
+Murex,Outright,Type BW,Document nacked authorisation queue,ackNack_confirmation_outbound_nacked,ackNack_confirmation_finalPoint,3
+Murex,Outright,Type V,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,5
+Murex,Outright,Type V,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,5
+Murex,Outright,Type U,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,9
+Murex,Outright,Type U,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,9
+Murex,Outright,Type R,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,1
+Murex,Outright,Type BN,Ops queue to hold unmatched items for discard/retry,mat_outbound_unmatched,mat_finalPoint,2
+Murex,Outright,Type CO,Settlement message Nack'd queue,ackNack_settlement_messageNacked,ackNack_settlement_qngSwiftMessageCheck,1
+Murex,Outright,Type CP,Outbond_ErrMngt_functionalOSP,Outbond_ErrMngt_functionalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,2
+Murex,Outright,Type O,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,5
+Murex,Outright,Type CQ,Queue for failed ANNA requests._1,anna_failed_request_queue,anna_is_contract_live,2
+Murex,Outright,Type CQ,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,8
+Murex,Outright,Type CQ,Queue for failed ANNA requests._2,anna_failed_request_queue,anna_is_contract_live,2
+Murex,Outright,Type CR,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,1
+Murex,Outright,Type CR,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,4
+Murex,Reserve,Type E,doc_init_RISK_Validation,doc_init_RISK_Validation,doc_init_RISK_Processed,6
+Murex,Reserve,Type E,doc_init_RISK_Validation,doc_init_RISK_Validation,doc_init_RISK_releaseProcessedEntriesTimer,6
+Murex,SCF,Type E,doc_init_RISK_Validation,doc_init_RISK_Validation,doc_init_RISK_Processed,2
+Murex,SCF,Type E,doc_init_RISK_Validation,doc_init_RISK_Validation,doc_init_RISK_releaseProcessedEntriesTimer,2
+Murex,Spot,Type CS,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,8
+Murex,Spot,Type BE,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,12
+Murex,Spot,Type F,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,521
+Murex,Spot,Type AK,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,32
+Murex,Spot,Type S,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,24
+Murex,Spot,Type R,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,62
+Murex,Spot,Type B,Authorisation queue for regulatory exceptions,uri_regulatoryExceptionQueue,uri_purge,9
+Murex,Spot,Type CT,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_Purge,2
+Murex,Spot,Type CT,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,1
+Murex,Spot,Type AG,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,12
+Murex,Spot,Type AC,doc_init_RISK_Validation,doc_init_RISK_Validation,doc_init_RISK_Processed,2
+Murex,Spot,Type AC,doc_init_RISK_Validation,doc_init_RISK_Validation,doc_init_RISK_releaseProcessedEntriesTimer,2
+Murex,Spot,Type AM,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,1
+Murex,Spot,Type AM,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,1
+Murex,Spot,Type AW,Settlement message wait for ACK/NACK queue (manual and automatic (via Flow trigger Task)),ackNack_settlement_waitForAckNack,ackNack_settlement_messageNacked,8
+Murex,Spot,Type AW,Settlement message Nack'd queue,ackNack_settlement_messageNacked,ackNack_settlement_qngSwiftMessageCheck,8
+Murex,Spot,Type CM,Settlement message Nack'd queue_1,ackNack_settlement_messageNacked,ackNack_settlement_qngSwiftMessageCheck,1
+Murex,Spot,Type CM,Settlement message wait for ACK/NACK queue (manual and automatic (via Flow trigger Task)),ackNack_settlement_waitForAckNack,ackNack_settlement_messageNacked,1
+Murex,Spot,Type CM,Settlement message Nack'd queue_2,ackNack_settlement_messageNacked,ackNack_settlement_qngSwiftMessageCheck,1
+Murex,Spot,Type BY,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_Purge,4
+Murex,Spot,Type BN,Ops queue to hold unmatched items for discard/retry,mat_outbound_unmatched,mat_finalPoint,2
+Murex,Spot,Type BL,Queue for failed ANNA requests.,anna_failed_request_queue,anna_purge,2
+Murex,Spot,Type CU,Settlement message wait for ACK/NACK queue (manual and automatic (via Flow trigger Task)),ackNack_settlement_waitForAckNack,ackNack_settlement_messageNacked,2
+Murex,Spot,Type CU,Settlement message Nack'd queue,ackNack_settlement_messageNacked,ackNack_settlement_qngSwiftMessageCheck,2
+Murex,Spot,Type X,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,4
+Murex,Spot,Type L,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,3
+Murex,Spot,Type CO,Settlement message Nack'd queue,ackNack_settlement_messageNacked,ackNack_settlement_qngSwiftMessageCheck,2
+Murex,Spot,Type BS,Exception Validation,doc_gen_exceptionValidation,ei_RefreshStartPoint,3
+Murex,Spot,Type BM,Authorisation queue to hold the outbound message until inbound communication is received,ackNack_confirmation_outbound_waitForAckMessage,ackNack_confirmation_outbound_acked,1
+Murex,Spot,Type BM,Settlement message wait for ACK/NACK queue (manual and automatic (via Flow trigger Task)),ackNack_settlement_waitForAckNack,ackNack_settlement_messageNacked,1
+Murex,Spot,Type BM,Settlement message Nack'd queue,ackNack_settlement_messageNacked,ackNack_settlement_qngSwiftMessageCheck,1
+Murex,Spot,Type CV,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_Purge,1
+Murex,Spot,Type CV,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,1
+Murex,Xccy FX Reset,Type U,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,6
+Murex,Xccy FX Reset,Type U,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,6
+Murex,Xccy FX Reset,Type S,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,6
+Murex,Xccy FX Reset,Type F,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,4
+Murex,Xccy FX Reset,Type R,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,1
+Murex,Xccy FX non-Reset,Type BW,Document nacked authorisation queue,ackNack_confirmation_outbound_nacked,ackNack_confirmation_finalPoint,1
+Murex,Xccy FX non-Reset,Type AG,Queue to hold items waiting to be matched,mat_outbound_waitForMatchMessage,mat_outbound_isContractUpdateRequired,1
+Murex,Xccy FX non-Reset,Type AU,Document nacked authorisation queue,ackNack_confirmation_outbound_nacked,ackNack_confirmation_finalPoint,2
+Murex,Xccy FX non-Reset,Type R,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,2
+Murex,Xccy FX non-Reset,Type CG,Outbound_ErrMngt_technicalOSP_1,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,1
+Murex,Xccy FX non-Reset,Type CG,Queue for failed ANNA requests.,anna_failed_request_queue,anna_is_contract_live,1
+Murex,Xccy FX non-Reset,Type CG,Outbound_ErrMngt_technicalOSP_2,Outbound_ErrMngt_technicalOSP,Outbound_ErrMngt_isRTSAxmlNeeded,4

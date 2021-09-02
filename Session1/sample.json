@@ -1,0 +1,22 @@
+{
+	"common_tags": {
+		"Counterparty": "MxML/contracts/contract/contractHeader/tradeParties/tradeParty[1]/counterparty/partyName",
+		"Internal/External": "MxML/trades/trade/tradeHeader/tradeCategory/tradeDestination",
+		"Trade Status": "MxML/trades/trade/tradeStatus/physicalStatus",
+		"Portfolio": "MxML/trades/trade/portfolios/portfolio/portfolioLabel",
+		"User Name": "MxML/documentProperties/producedBy/user/name",
+		"User Group": "MxML/documentProperties/producedBy/user/group",
+		"User Desk": "MxML/documentProperties/producedBy/user/desk",
+		"Clearing Eligibility": "MxML/contracts/contract/regulatoryInformation/clearingEligibility",
+		"Typology": "MxML/contracts/contract/contractHeader/contractCategory/typology",
+		"Source System": "MxML/contracts/contract/contractHeader/contractSource/sourceSystem",
+		"Entity": "MxML/trades/trade/tradeHeader/tradeViews/tradeView/entity",
+		"Trade Insert": "MxML/trades/trade/tradeVersions/tradeVersion/action",
+		"Flow Currency": "MxML/trades/trade/settlementInstructions/settlementInstruction/settlementInstructionKey/flowCurrency",
+		"Last Contract Event Action": "MxML/contracts/contract/contractHeader/contractSource/lastContractEventAction",
+		"Payment Netting": "MxML/trades/trade/tradeHeader/tradeAgreements/paymentNetting",
+		"Contract Id": "MxML/contracts/contract/contractHeader/contractSource/contractOriginReference/contractId/internalId",
+		"Party Name": "MxML/documentProperties/producedBy/partyName",
+		"partyName2": "MxML/documentProperties/producedBy/partyName"
+	}
+}
