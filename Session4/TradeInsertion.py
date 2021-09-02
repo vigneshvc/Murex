@@ -19,6 +19,7 @@ def updateUniqueColumn(content, unique_column):
     return content
 
 
+
 filename = 'dendo_patterns.json'
 f = open(filename, 'r')
 data = json.load(f)
