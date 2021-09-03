@@ -12,10 +12,10 @@ def readDataFromJsonFile(fileName):
     lst.append(list(data['Unique_Column'].keys()))
     b = False
     for k, v in data.items():
-        b = b or k == 'Grouping_Column'
-        if b and not k == 'Grouping_Column':
+        if b:
             op = op + [lst.copy() + [k] + dt + [data['Check_instance']['Events']]
                        for dt in list(map(list, v.items()))]
+        b = b or k == 'Grouping_Column'
     return op
 
 
