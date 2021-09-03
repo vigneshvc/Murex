@@ -6,8 +6,7 @@ import multiprocessing as mp
 def readDataFromJsonFile(fileName):
     f = open(fileName, 'r')
     data = json.load(f)
-    lst = []
-    op = []
+    lst,op = [],[]
     lst.append(fileName[:-14])
     lst.append(list(data['Unique_Column'].keys()))
     b = False
