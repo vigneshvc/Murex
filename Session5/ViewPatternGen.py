@@ -1,7 +1,6 @@
 import json
 import os
 import multiprocessing as mp
-import re
 
 
 def readDataFromJsonFile(fileName):
