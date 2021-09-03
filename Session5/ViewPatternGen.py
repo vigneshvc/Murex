@@ -6,14 +6,23 @@ import multiprocessing as mp
 def readDataFromJsonFile(fileName):
     f = open(fileName, 'r')
     data = json.load(f)
-    lst,op = [],[]
+    lst, op = [], []
     lst.append(fileName[:-14])
     lst.append(list(data['Unique_Column'].keys()))
     b = False
     for k, v in data.items():
         if b:
-            op = op + [lst.copy() + [k] + dt + [data['Check_instance']['Events']]
-                       for dt in list(map(list, v.items()))]
+            for k1,v1 in list(map(list, v.items())):
+                tp = lst.copy() + [k, k1]
+                if k1 in data['Check_attributes'].keys():
+                    tp += [v1+'/@'+data['Check_attributes'][k1]]
+                else:
+                    tp += [v1]
+                if k1 in data['Check_instance']:
+                    tp += [data['Check_instance'][k1]]
+                else:
+                    tp += ['Last']
+                op.append(tp)
         b = b or k == 'Grouping_Column'
     return op
 
