@@ -30,7 +30,8 @@ def readDataFromJsonFile(fileName):
 if __name__ == "__main__":
     pool = mp.Pool(processes=mp.cpu_count())
     path_to_json = os.path.dirname(os.path.realpath(__file__))
-    json_files = [pos_json for pos_json in os.listdir(path_to_json) if pos_json.endswith('_patterns.json')]
+    json_files = [path_to_json+'\\'+pos_json for pos_json in os.listdir(path_to_json)
+                  if pos_json.endswith('_patterns.json')]
     resultList = sum(pool.map(readDataFromJsonFile, json_files), [])
     pool.close()
     pool.join()
