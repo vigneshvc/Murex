@@ -1,13 +1,14 @@
 import json
 import os
 import multiprocessing as mp
+import re
 
 
 def readDataFromJsonFile(fileName):
     f = open(fileName, 'r')
     data = json.load(f)
     lst, op = [], []
-    lst.append(fileName[:-14])
+    lst.append(os.path.split(fileName)[1][:-14])
     lst.append(list(data['Unique_Column'].keys()))
     b = False
     for k, v in data.items():
