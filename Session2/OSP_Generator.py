@@ -1,18 +1,19 @@
-import pandas as pd
-import os
 import itertools
+import os
 import string
+
+import pandas as pd
 
 
 def get_dataframe(input_file_name):
-    if os.path.isfile(input_file_name+'.csv'):
+    if os.path.isfile(input_file_name + '.csv'):
         print("Fetching data from csv file")
-        ddf = pd.read_csv(input_file_name+'.csv')
+        ddf = pd.read_csv(input_file_name + '.csv')
         print("Data fetched")
         return ddf
-    df = pd.read_excel(input_file_name+'.xlsx')
+    df = pd.read_excel(input_file_name + '.xlsx')
     print("Fetching data from excel file")
-    df.to_csv(input_file_name+'.csv', index=False)
+    df.to_csv(input_file_name + '.csv', index=False)
     print("Data fetched and csv file is also generated")
     return df
 
@@ -22,11 +23,12 @@ def gen_seq():
         gen_seq.i += 1
     except AttributeError:
         gen_seq.seq = []
-        for size in [1,2,3,4]:
+        for size in [1, 2, 3, 4]:
             for s in itertools.product(string.ascii_uppercase, repeat=size):
                 gen_seq.seq.append("".join(s))
         gen_seq.i = 0
-    return "Type "+gen_seq.seq[gen_seq.i]
+    return "Type " + gen_seq.seq[gen_seq.i]
+
 
 try:
     input_file_name = "OSP_Rabo_20Apr"
@@ -44,8 +46,8 @@ try:
                  'TO_TASK': 'Level5'}).drop('CONTRACT_ID', axis=1)[
         ['Level1', 'Level2', 'Level3', 'Level4', 'Level5', 'Count']]
     print("Data processed. Exporting to csv...")
-    fileData.to_csv(output_file_name+'.csv', index=False)
-    print("CSV file is generated : "+output_file_name+".csv")
+    fileData.to_csv(output_file_name + '.csv', index=False)
+    print("CSV file is generated : " + output_file_name + ".csv")
 except PermissionError:
     print("CSV file cannot be generated. Kindly close the file and try again")
 except Exception:

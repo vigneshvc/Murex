@@ -1,6 +1,6 @@
 import json
-import os
 import multiprocessing as mp
+import os
 
 
 def readDataFromJsonFile(fileName):
@@ -12,10 +12,10 @@ def readDataFromJsonFile(fileName):
     b = False
     for k, v in data.items():
         if b:
-            for k1,v1 in list(map(list, v.items())):
+            for k1, v1 in list(map(list, v.items())):
                 tp = lst.copy() + [k, k1]
                 if k1 in data['Check_attributes'].keys():
-                    tp += [v1+'/@'+data['Check_attributes'][k1]]
+                    tp += [v1 + '/@' + data['Check_attributes'][k1]]
                 else:
                     tp += [v1]
                 if k1 in data['Check_instance']:
@@ -30,7 +30,7 @@ def readDataFromJsonFile(fileName):
 if __name__ == "__main__":
     pool = mp.Pool(processes=mp.cpu_count())
     path_to_json = os.path.dirname(os.path.realpath(__file__))
-    json_files = [path_to_json+'\\'+pos_json for pos_json in os.listdir(path_to_json)
+    json_files = [path_to_json + '\\' + pos_json for pos_json in os.listdir(path_to_json)
                   if pos_json.endswith('_patterns.json')]
     resultList = sum(pool.map(readDataFromJsonFile, json_files), [])
     pool.close()

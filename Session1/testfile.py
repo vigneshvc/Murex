@@ -1,4 +1,3 @@
-import pandas as pd
 import os
 
 for filename in os.listdir(path):
@@ -57,8 +56,3 @@ size -> returns number of rows in each groups as seperate column
 rename() -> used to rename column/index
 to_csv -> converts DataFrame to csv file
 '''
-
-
-
-
-

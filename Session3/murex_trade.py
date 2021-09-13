@@ -1,9 +1,10 @@
-import xml.etree.ElementTree as ET
 import json
-import pandas as pd
+import multiprocessing as mp
 import os
 import time
-import multiprocessing as mp
+import xml.etree.ElementTree as ET
+
+import pandas as pd
 
 
 def extract_from_xml(filename):
@@ -30,7 +31,7 @@ if __name__ == "__main__":
     pool = mp.Pool(processes=mp.cpu_count())
     print("Starting to extract data from xml files")
     start = time.time()
-    resultList = pool.map(extract_from_xml,os.listdir(path))
+    resultList = pool.map(extract_from_xml, os.listdir(path))
     pool.close()
     pool.join()
     end = time.time()
@@ -50,4 +51,4 @@ if __name__ == "__main__":
         columns={0: 'Count'})
     fileData.to_csv('murex_trade_calculated.csv', index=False)
     print("Data processed : murex_trade_calculated.csv")
-    print("Total time taken :",round(time.time() - start,2),"seconds")
+    print("Total time taken :", round(time.time() - start, 2), "seconds")
