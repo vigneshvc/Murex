@@ -3,12 +3,14 @@ import json
 import pandas as pd
 import os
 
-resultList = []
-f = open(r'C:\Users\vigne\Desktop\MUREX\sample.json', 'r')
-data = json.load(f)
-path = r"C:\Users\vigne\Desktop\MUREX\mxdev21_trade_xmls_set4"
-string = []
 
+
+f = open(r'sample.json', 'r')
+data = json.load(f)
+#print(data)
+path = r"mxdev21_trade_xmls_set4"
+
+resultList = []
 for filename in os.listdir(path):
     if not filename.endswith('.xml'):
         continue
@@ -25,14 +27,14 @@ for filename in os.listdir(path):
             continue     
         y.append(t[0].text)
     resultList.append(y)
-#print(resultList)
+print(resultList)
 fields = []
-for key, value in data['common_tags'].items():
+for key in data['common_tags'].keys():
     fields.append(key)
 
 #print(",".join(fields))
-murex_demo = pd.DataFrame(resultList, columns = fields)
-murex_demo.to_csv('murex_demo.csv', index=False)
+murex_demo = pd.DataFrame(resultList, columns=fields)
+murex_demo.to_csv('murex_demo.csv',index=False)
 
 
 

@@ -30,7 +30,7 @@ if __name__ == "__main__":
     pool = mp.Pool(processes=mp.cpu_count())
     print("Starting to extract data from xml files")
     start = time.time()
-    resultList = pool.map(extract_from_xml,os.listdir(path))
+    resultList = pool.map(extract_from_xml, os.listdir(path))
     pool.close()
     pool.join()
     end = time.time()
